@@ -91,6 +91,14 @@ public class Report {
         this.content = content;
     }
 
+    public Timestamp getCreated_at() {
+        return updated_at;
+    }
+
+    public void setCreated_at(Timestamp updated_at) {
+        this.updated_at = updated_at;
+    }
+
     public Timestamp getUpdated_at() {
         return updated_at;
     }
@@ -98,10 +106,5 @@ public class Report {
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
     }
-
-
-
-
-
 
 }

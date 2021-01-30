@@ -125,7 +125,7 @@ select{
     width: 36%;
     padding-right: 3%;
     text-align: right;
-    display: iline-block;
+    display: inline-block;
 }
 
 #header a {
@@ -137,7 +137,7 @@ h1 a {
 }
 
 table#report_list th {
-    font-weighht: bold;
+    font-weight: bold;
     padding: 10px 2%;
 }
 
@@ -147,13 +147,13 @@ table#report_list .report_name {
 }
 
 table#report_list .report_date {
-    width 20%;
+    width: 20%;
 }
 
 table#report_list .report_title {
     width: 37%;
 }
 
-table#report_list .reportaction {
+table#report_list .report_action {
     width: 13%;
 }
